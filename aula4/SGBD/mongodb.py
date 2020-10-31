@@ -16,7 +16,7 @@ def inserir_dados():
 
     except Exception as e:
         print(f'erro:{e}')
-
+ 
 def buscar_dados():
     for r in collection.fila.find():
         print(f"Empresa: {r['empresa']}")
